@@ -1,5 +1,5 @@
 @font-face {
-  font-family: SF-pro-regular;
+  font-family: SF-pro-light;
   src: url(../public/assets/SFPRODISPLAYREGULAR.OTF);
 }
 
@@ -11,6 +11,11 @@
 @font-face {
   font-family: SF-pro-bold;
   src: url(../public/assets/SFPRODISPLAYBOLD.OTF);
+}
+:root {
+  --font-light: SF-pro-light;
+  --font-medium: SF-pro-medium;
+  --font-bold: SF-pro-bold;
 }
 
 *,
@@ -25,5 +30,34 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "SF-pro-bold";
+  font-family: "SF-pro-light";
+}
+
+p {
+  font-family: var(--font-light);
+  font-size: 1.6rem;
+}
+
+button {
+  font-family: var(--font-medium);
+  padding: 2.5rem 4rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 2.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-bold);
+  letter-spacing: -1px;
 }
