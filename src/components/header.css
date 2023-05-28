@@ -1,0 +1,8 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../public/assets/serjan-midili--9LB0GKPF0o-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: end;
+}
