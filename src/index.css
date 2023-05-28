@@ -1,3 +1,18 @@
+@font-face {
+  font-family: SF-pro-regular;
+  src: url(../public/assets/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: SF-pro-medium;
+  src: url(../public/assets/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+  font-family: SF-pro-bold;
+  src: url(../public/assets/SFPRODISPLAYBOLD.OTF);
+}
+
 *,
 ::after,
 ::before {
@@ -10,8 +25,5 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "SF-pro-bold";
 }
