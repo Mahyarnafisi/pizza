@@ -68,4 +68,5 @@ h4,
 h5 {
   font-family: var(--font-bold);
   letter-spacing: -1px;
+  line-height: 1.3rem;
 }
