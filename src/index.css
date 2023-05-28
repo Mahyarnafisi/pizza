@@ -39,18 +39,26 @@ p {
 }
 
 button {
-  font-family: var(--font-medium);
-  padding: 2.5rem 4rem;
-  border-radius: 1rem;
+  font-family: var(--font-regular);
+  padding: 2.2rem 3rem;
+  border-radius: 1.2rem;
   border: none;
   outline: none;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   cursor: pointer;
   text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
-  display: flex;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+button i {
+  font-size: 3.2rem;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+button:hover i {
+  transform: translateX(0.5rem);
 }
 
 h1,

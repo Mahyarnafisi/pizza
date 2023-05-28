@@ -18,7 +18,9 @@ function App() {
         vel est pariatur ipsa odit fuga debitis! Dolores, quae autem?
       </p>
 
-      <button>Start here here Here</button>
+      <button>
+        Learn More<i class="ri-arrow-right-s-line"></i>
+      </button>
 
       <h1>Pizza Land</h1>
       <h2>Pizza Land</h2>
