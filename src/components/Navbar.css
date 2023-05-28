@@ -1,0 +1,29 @@
+.navbar {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10rem;
+  padding: 0 10vw;
+}
+
+.navbar__logo {
+  width: 6.4rem;
+  height: auto;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar__item {
+  list-style: none;
+}
+
+.navbar__link {
+  color: #fff;
+  font-size: 2.1rem;
+}
