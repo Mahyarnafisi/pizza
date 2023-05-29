@@ -9,16 +9,20 @@ function Navbar() {
         <img src="/assets/logo.png" alt="" />
       </div>
       <div className="navbar__list">
-        <Link className="list__link" to="/">
+        <Link className="navbar__link" to="/">
+          <i class="fa-solid fa-house"></i>
           Home
         </Link>
-        <Link className="list__link" to="/menu">
+        <Link className="navbar__link" to="/menu">
+          <i class="fa-solid fa-utensils"></i>
           Menu
         </Link>
-        <Link className="list__link" to="/about">
+        <Link className="navbar__link" to="/about">
+          <i class="fa-solid fa-circle-question"></i>
           About
         </Link>
-        <Link className="list__link" to="/contact">
+        <Link className="navbar__link" to="/contact">
+          <i class="fa-regular fa-face-smile"></i>
           Contact
         </Link>
       </div>

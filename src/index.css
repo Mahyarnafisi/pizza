@@ -16,6 +16,11 @@
   --font-light: SF-pro-light;
   --font-medium: SF-pro-medium;
   --font-bold: SF-pro-bold;
+
+  --color-white: #ffffff;
+  --color-primary: #fe0435;
+  --color-bg: #f0eeed;
+  --color-black: #181e27;
 }
 
 *,
@@ -79,7 +84,7 @@ a {
 .container {
   width: 100%;
   height: min-content;
-  padding: 0 5vw;
+  padding: 10rem 5vw;
   display: flex;
   align-items: center;
   justify-content: center;

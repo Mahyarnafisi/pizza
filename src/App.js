@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-
         <Routes>
           <Route path="/" Component={Home}></Route>
           <Route path="/menu" Component={Menu}></Route>
