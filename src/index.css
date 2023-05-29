@@ -75,3 +75,12 @@ a {
   list-style: none;
   text-decoration: none;
 }
+
+.container {
+  width: 100%;
+  height: min-content;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

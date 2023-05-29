@@ -9,10 +9,18 @@ function Navbar() {
         <img src="/assets/logo.png" alt="" />
       </div>
       <div className="navbar__list">
-        <Link to="/">Home</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <Link className="list__link" to="/">
+          Home
+        </Link>
+        <Link className="list__link" to="/menu">
+          Menu
+        </Link>
+        <Link className="list__link" to="/about">
+          About
+        </Link>
+        <Link className="list__link" to="/contact">
+          Contact
+        </Link>
       </div>
     </div>
   );
