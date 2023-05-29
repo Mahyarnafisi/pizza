@@ -1,5 +1,5 @@
 .navbar {
-  position: absolute;
+  /* position: absolute; */
   background-color: #ffffff11;
   backdrop-filter: blur(30px);
   box-shadow: 0 1rem 5rem #00000025;
