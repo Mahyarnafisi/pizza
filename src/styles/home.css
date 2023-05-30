@@ -1,8 +1,10 @@
 .home {
+  width: 100%;
   height: 100vh;
   background-image: linear-gradient(180deg, #ffffff 40%, transparent 120%), url(../assets/tamas-pap-XLmhRnV8yuc-unsplash.jpg);
   background-size: cover;
   object-fit: cover;
   background-position: 100% 80%;
   background-repeat: no-repeat;
+  display: grid;
 }
