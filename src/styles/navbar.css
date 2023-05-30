@@ -1,16 +1,15 @@
 .navbar {
   position: absolute;
   background-color: transparent;
-  /* border-bottom: 1px solid #ffffff15; */
   backdrop-filter: blur(5px);
-  box-shadow: 0 1rem 5rem #00000025;
-  border-bottom: 2px solid var(--color-tertiary);
+  border-bottom: 3px solid var(--color-tertiary);
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 10rem;
   padding: 0 5vw;
   width: 100%;
+  position: relative;
 }
 
 .navbar__logo {
@@ -32,12 +31,12 @@
 .navbar__link {
   color: var(--color-tertiary);
   padding: 1.6rem 2.2rem;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
 }
 .navbar__link i {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
 }
 .navbar__link:hover {
   background-color: var(--color-tertiary);
@@ -69,6 +68,33 @@
   display: none;
 }
 
+/* Sidebar Section ----------------------------------------------*/
+.sidebar {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  background-color: var(--color-white);
+  border-bottom: 3px solid var(--color-tertiary);
+  box-shadow: 0 1rem 5rem #00000015;
+}
+.sidebar__link {
+  color: var(--color-tertiary);
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar__link:hover {
+  width: 100%;
+  background-color: var(--color-tertiary);
+  color: var(--color-white);
+}
+/* Media Query --------------------------------------------- */
 @media only screen and (max-width: 40em) {
   .navbar__link {
     display: none;
@@ -77,4 +103,8 @@
   .navbar__btn {
     display: flex;
   }
+
+  /* .sidebar {
+    display: flex;
+  } */
 }
