@@ -18,8 +18,7 @@ function Navbar() {
           Menu
         </Link>
         <Link className="navbar__link" to="/about">
-          <i class="fa-solid fa-circle-question"></i>
-          About
+          <i class="fa-solid fa-circle-question"></i>About
         </Link>
         <Link className="navbar__link" to="/contact">
           <i class="fa-regular fa-face-smile"></i>
