@@ -1,15 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import "../styles/navbar.css";
 import Logo from "../assets/logosmall.webp";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const [toggleSidebar, setToggleSidebar] = useState(false);
+  const sidebarHandler = () => {
+    setToggleSidebar(!toggleSidebar);
+  };
   return (
     <div className="navbar">
       <div className="navbar__logo">
         <img src={Logo} alt="" />
       </div>
-      <div className="sidebar">
+      <div className="sidebar" id={toggleSidebar ? "open" : "close"}>
         <Link className="sidebar__link " to="/">
           Home
         </Link>
@@ -39,7 +44,7 @@ function Navbar() {
           <i class="fa-regular fa-face-smile btn__icon"></i>Contact
         </Link>
 
-        <button className="navbar__btn ">
+        <button className="navbar__btn " onClick={sidebarHandler}>
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
