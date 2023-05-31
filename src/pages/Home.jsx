@@ -15,6 +15,7 @@ function Home() {
             The taste of <span>Italy</span>
           </h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fugit asperiores! Eius iure aliquam eligendi, saepe rem recusandae fuga blanditiis dolor maiores, ut minus ex autem enim nam! Mollitia, nemo!</p>
+          <div className="right-box__rope">&nbsp;</div>
         </div>
       </div>
     </div>
