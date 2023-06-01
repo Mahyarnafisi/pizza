@@ -14,7 +14,10 @@ function Home() {
           <h2>
             The taste of <span>Italy</span>
           </h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fugit asperiores! Eius iure aliquam eligendi, saepe rem recusandae fuga blanditiis dolor maiores, ut minus ex autem enim nam! Mollitia, nemo!</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eius est praesentium natus vitae dolorum dolorem sit sunt voluptatibus, eaque aliquid laboriosam illo maxime! Minus, odio. Animi natus perspiciatis placeat?
+            Repellendus, vel? Praesentium, cumque ea.
+          </p>
           <div className="right-box__rope">&nbsp;</div>
         </div>
       </div>
