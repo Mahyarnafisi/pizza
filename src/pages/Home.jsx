@@ -1,13 +1,12 @@
 import React from "react";
 import LogoVinatge from "../assets/logo-vintage.png";
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 
 function Home() {
   return (
     <div className="home">
-      <div className="home__left-box">
-        <h1>left box</h1>
-      </div>
+      <div className="home__left-box"></div>
       <div className="home__right-box">
         <div className="right-box__card">
           <img src={LogoVinatge} alt="retro picture" />
