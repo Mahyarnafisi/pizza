@@ -1,6 +1,10 @@
 import React from "react";
 import "../styles/footer.css";
 import { Link } from "react-router-dom";
+import { BsInstagram } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsReddit } from "react-icons/bs";
 function Footer() {
   return (
     <div className="footer">
@@ -18,7 +22,12 @@ function Footer() {
           Contact
         </Link>
       </div>
-      <div className="footer__socialMedia">social media</div>
+      <div className="footer__socialMedia">
+        <BsInstagram className="socialMedia-icon" />
+        <BsLinkedin className="socialMedia-icon" />
+        <BsFacebook className="socialMedia-icon" />
+        <BsReddit className="socialMedia-icon" />
+      </div>
     </div>
   );
 }

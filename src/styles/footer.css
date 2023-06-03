@@ -10,12 +10,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.footer__socialMedia {
-  width: 50%;
-  padding: 2rem;
-  display: flex;
-  justify-content: center;
-}
+
 .footer__menu {
   display: flex;
   justify-content: center;
@@ -24,5 +19,21 @@
   width: 50%;
 }
 
-.footer__menu .navbar__link {
+.footer__socialMedia {
+  width: 50%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.socialMedia-icon {
+  font-size: 2.8rem;
+  color: var(--color-tertiary);
+  cursor: pointer;
+}
+
+.socialMedia-icon:hover {
+  color: var(--color-white);
+  background-color: var(--color-tertiary);
 }
