@@ -4,9 +4,7 @@ import "../styles/menu.css";
 function Menu() {
   return (
     <div className="menu">
-      <div className="container">
-        <h1>Menu page</h1>
-      </div>
+      <div className="container"></div>
     </div>
   );
 }

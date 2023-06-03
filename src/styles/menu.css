@@ -1,7 +1,11 @@
 .menu {
   background-color: var(--color-bg);
-  height: 90vh;
-  background-image: linear-gradient(180deg, #e4010b10 50%, transparent 150%);
+  width: 100%;
+  height: min-content;
+  background-image: url(../assets/menu-back.jpg);
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: cover;
 }
 
 .list__link {
