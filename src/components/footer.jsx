@@ -28,6 +28,7 @@ function Footer() {
         <BsFacebook className="socialMedia-icon" />
         <BsReddit className="socialMedia-icon" />
       </div>
+      <div className="copyRight">&copy; 2023 Pizzadelivery.com</div>
     </div>
   );
 }

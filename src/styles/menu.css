@@ -1,5 +1,7 @@
 .menu {
   background-color: var(--color-bg);
+  height: 90vh;
+  background-image: linear-gradient(180deg, #e4010b10 50%, transparent 150%);
 }
 
 .list__link {
