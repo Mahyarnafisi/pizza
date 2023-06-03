@@ -37,7 +37,7 @@ p {
 }
 button {
   padding: 2.2rem 3rem;
-  border-radius: 1rem;
+  border-radius: 0.4rem;
   border: none;
   outline: none;
   font-size: 2.1rem;
@@ -47,6 +47,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  color: var(--color-black);
 }
 button .btn__icon {
   font-size: 3.2rem;
