@@ -1,0 +1,45 @@
+.item__price {
+  position: relative;
+  padding: 2rem;
+  background-color: var(--color-white);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: space-between;
+
+  /* gap: 5rem; */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 18rem;
+  height: 5rem;
+  z-index: 100;
+  box-shadow: 0 1rem 3rem #00000035;
+}
+.item__price::after {
+  position: absolute;
+  z-index: 101;
+  content: "";
+  width: 10rem;
+  height: 10rem;
+  top: -50%;
+  left: -19%;
+  border-radius: 0.5rem;
+  background-color: #dddddd;
+  transform: rotate(45deg);
+  /* border: 2px solid #000000; */
+}
+
+.item__price .price {
+  z-index: 102;
+  font-size: 2.6rem;
+  color: var(--color-black);
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+
+.taste {
+  font-size: 1.6rem;
+  font-weight: 600;
+  z-index: 102;
+  color: black;
+}

@@ -8,14 +8,61 @@
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+.menu__item:hover {
+  box-shadow: 0 2rem 4rem #00000045;
+}
+
+.menu__item:hover .item__image {
+  filter: brightness(120%);
 }
 .item__number {
+  overflow: hidden;
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  left: 0rem;
   color: var(--color-tertiary);
-  font-size: 4.8em;
+  font-size: 3.6em;
+  font-weight: 600;
   display: flex;
-  line-height: 1;
-  color: red;
+  /* line-height: 1; */
+  color: var(--color-white);
+  border-radius: 0rem 1rem 1rem 0rem;
+  background-color: var(--color-tertiary);
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+.item__image {
+  flex: 1;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 1rem 3rem #00000025;
+  transition: all 0.4s ease-in-out;
+}
+
+.item__card {
+  padding: 2rem;
+  flex: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.item__header {
+  font-size: 3.6rem;
+}
+.item__info {
+  font-size: 1.6rem;
+}
+.item__review {
+  font-size: 1.8rem;
 }
