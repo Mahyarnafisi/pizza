@@ -7,7 +7,7 @@ import StLouisPizza from "../assets/pizza-6.webp";
 import CaliforniaPizza from "../assets/pizza-7.webp";
 import DetroitPizza from "../assets/pizza-8.webp";
 
-export const menuList = [
+const menuList = [
   { key: 1, name: "Neapolitan Pizza", info: "affordable and readily available through numerous street vendors.", review: 92, price: 21.9, image: { NeapolitanPizza } },
   { key: 2, name: "Chicago Pizza", info: "with slices of mozzarella lining the dough followed by meat, vegetables", review: 142, price: 18.9, image: { ChicagoPizza } },
   { key: 3, name: "New York-Style Pizza", info: "toppings for Chicago pizza are ground beef, sausage, pepperoni, onion, mushrooms, and green peppers", review: 67, price: 16.9, image: { NewYorkStylePizza } },
@@ -17,3 +17,4 @@ export const menuList = [
   { key: 7, name: "Detroit Pizza", info: "This square-cut pizza is served with or without cheese", review: 230, price: 12.9, image: { DetroitPizza } },
   { key: 8, name: "St. Louis Pizza", info: "The sauce typically has a tangy tomato paste with a strong oregano flavor", review: 76, price: 19.9, image: { StLouisPizza } },
 ];
+export default menuList;

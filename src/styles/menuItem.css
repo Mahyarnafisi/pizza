@@ -1,0 +1,20 @@
+.menu__item {
+  /* background-color: aliceblue; */
+  border-radius: 0.5rem;
+  height: 40rem;
+  border: 3px solid var(--color-text-black);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1rem 4rem #00000045;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.item__number {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--color-tertiary);
+  font-size: 4.8em;
+  display: flex;
+  line-height: 1;
+}
