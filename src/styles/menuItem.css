@@ -3,7 +3,7 @@
   border-radius: 0.5rem;
   height: 40rem;
   border: 3px solid var(--color-text-black);
-  backdrop-filter: blur(10px);
+  background-color: #00000045;
   box-shadow: 0 1rem 4rem #00000045;
   display: flex;
   flex-wrap: wrap;

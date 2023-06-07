@@ -1,5 +1,111 @@
 .about {
-  background-color: var(--color-bg);
-  height: 90vh;
-  background-image: linear-gradient(180deg, #e4010b10 50%, transparent 150%);
+  /* background-color: var(--color-bg); */
+  height: min-content;
+  /* background-image: url(/src/assets/aboutbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 30%; */
+  padding: 5vh 5vw;
+}
+
+.about__header {
+  margin-bottom: 4rem;
+  color: var(--color-black);
+}
+
+.about__header__title {
+  font-size: 4.1rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-weight: 400;
+}
+.about__header__text {
+  font-size: 1.8rem;
+  padding: 2rem 0;
+}
+
+.about__body {
+  width: 100%;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  gap: 6rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  /* gap: 2rem; */
+  border-radius: 2rem;
+  box-shadow: 0 1rem 2rem #00000025;
+  max-width: 50rem;
+  min-width: 40rem;
+  transition: all ease-in-out 0.2s;
+  border: 2px solid transparent;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid #ffffff; */
+  width: 100%;
+  padding: 2rem;
+}
+
+.card__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__icon {
+  padding: 1rem;
+  background-color: aliceblue;
+  width: 6.4rem;
+  height: 6.4rem;
+  margin-bottom: 2rem;
+  border-radius: 999px;
+}
+.card__title {
+  font-size: 3.1rem;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.card__text {
+  color: var(--color-white);
+  font-size: 1.8rem;
+  padding: 1rem 4rem;
+}
+
+.card:hover {
+  box-shadow: 0 1.2rem 2rem #00000035;
+  background-color: transparent;
+  box-shadow: 0 0 0;
+  border: 2px solid #444444;
+}
+
+.card:hover .card__title {
+  color: #444444 !important;
+}
+
+.card:hover .card__text {
+  color: #444444 !important;
+}
+
+.card:hover .card__icon {
+  color: #ffffff;
+  background-color: #444444;
 }
