@@ -16,12 +16,12 @@
 .about__header__title {
   font-size: 4.1rem;
   text-align: center;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
   font-weight: 400;
 }
 .about__header__text {
   font-size: 1.8rem;
-  padding: 2rem 0;
+  margin: 2rem 0;
 }
 
 .about__body {
@@ -46,7 +46,7 @@
   flex-direction: column;
   padding: 2rem;
   /* gap: 2rem; */
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   box-shadow: 0 1rem 2rem #00000025;
   max-width: 50rem;
   min-width: 40rem;
