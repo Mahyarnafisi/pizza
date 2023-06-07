@@ -1,8 +1,9 @@
 .footer {
   width: 100%;
+
   background-color: var(--color-white);
   border-top: 4px solid var(--color-tertiary);
-  height: 20rem;
+  height: 10rem;
   /* max-height: 20rem; */
   padding: 2rem 5vw;
   display: flex;
