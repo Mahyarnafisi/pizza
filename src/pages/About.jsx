@@ -1,11 +1,12 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "../styles/about.css";
 import { MdOutlineDeliveryDining } from "react-icons/md";
 import { FaPizzaSlice } from "react-icons/fa";
 import { LuChefHat } from "react-icons/lu";
 function About() {
   return (
-    <div className="about">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="about">
       <div className="about__header">
         <h1 className="about__header__title">About us</h1>
         <p className="about__header__text">
@@ -58,7 +59,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

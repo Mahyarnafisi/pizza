@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import LogoVinatge from "../assets/logo-vintage.png";
 import Pizzaretro from "../assets/pizzaretro-bg-removed.png";
 import { Link } from "react-router-dom";
@@ -7,7 +8,7 @@ import "../styles/home.css";
 
 function Home() {
   return (
-    <div className="home">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.5 }} className="home">
       <div className="home__left-box">
         <div className="header">
           <h1>Pizza</h1>
@@ -35,7 +36,7 @@ function Home() {
           <div className="right-box__rope">&nbsp;</div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
